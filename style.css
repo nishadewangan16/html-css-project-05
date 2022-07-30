@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grow-list {
+  color: #fff;
+  flex-direction: row;
+  display: flex;
+  flex: 8;
+}
+
+.list-item {
+  list-style-type: none;
+  flex: 1;
+}
+
+.list {
+  flex-direction: row;
+  display: flex;
+  margin: 20px;
+  padding: 0;
+}
+
+.list-item {
+  padding: 0 30px;
+}
+
+.button-small {
+  background-color: #ba0cc5;
+  color: #ffffff;
+  border-radius: 5px;
+  border: transparent;
+  padding: 8px;
+  margin-right: 30px;
+}
+
+.button-large {
+  background-color: #ba0cc5;
+  color: #ffffff;
+  border-radius: 5px;
+  border: transparent;
+  padding: 10px;
+  padding-right: 30px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+h1,
+p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 50px;
+  margin-bottom: 8px;
+  margin-top: 80px;
+}
+.hero-description {
+  font-size: 18px;
+}
+.hero {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.container {
+  position: relative;
+}
+
+.logo {
+  height: 48px;
+  width: 103px;
+  margin: x;
+  margin-left: 63px;
+  margin-top: 16px;
+}
+
+.line {
+  border-left: 2px solid #ffffff;
+  height: 40px;
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38px;
+}
